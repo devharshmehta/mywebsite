@@ -38,3 +38,6 @@ header h1 a:hover {
     color: blue;
     text-decoration: underline;
 }
+#Available_tools ol {
+    color: blue;
+    
