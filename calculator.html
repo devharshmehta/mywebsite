@@ -23,22 +23,40 @@
             <p id = "for_user"></p>
             <hr>
         </section>
-        <section id = "about_us">
-            <h3> About us </h3>
-            <p> This website is a collection of some basic tools and is designed as a project. </p>
-            <hr>
+        <section id = "footer">
+            <details id = "cont">
+                <summary id = "contributers"> Contributers </summary>
+                <div>
+                    <ol>
+                        <li> Harsh Mehta </li>
+                        <li> Nitin Thakur </li>
+                        <li> Kapil Sharma </li>
+                        <li> Yash Kashyap </li>
+                        <li> Sanjeev </li>
+                    </ol>
+                </div>
+            </details>
+            <details id = "about_us">
+                <summary> About us </summary>
+                <div id = "abt">
+                    This website is designed to be showcased as a project
+                </div>
+            </details>
         </section>
-        <section id = "Contributors">
-            <h4> Contributors </h4>
-            <ol>
-                <li> Harsh Mehta </li>
-                <li> Nitin Thakur </li>
-                <li> Yash Kashyap </li>
-                <li> Kapil Sharma </li>
-                <li> Sanjeev </li>
-            </ol>
-            <hr>
-        </section>
+        <hr>
+        <style>
+            summary {
+                cursor: pointer;
+                font-size: 10px;
+                list-style: none;
+                color: blue;
+            }
+            div {
+                font-size: 10px;
+            }
+            #abt {
+                margin-top: 5px;
+            }
+        </style>
     </body>
 </html>
-
