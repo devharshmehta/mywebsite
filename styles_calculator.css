@@ -1,9 +1,8 @@
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 30px;
+    margin: 20px;
 }
 header {
-    text-align: center;
     padding: auto;
     color: black;
 }
@@ -16,9 +15,6 @@ hr {
 header h1 a {
     color: inherit;
     text-decoration: none;
-}
-header h1 a:hover {
-    text-decoration: underline;
 }
 #calculator h2 {
     font-size: 25px;
