@@ -103,7 +103,7 @@ function percent_to_frac() {
             } else {
                 if (!reducedStr.includes('.')) {
                     const output = document.getElementById('for_user');
-                    output.innerHTML = `1 / ${reducedStr}`
+                    output.innerHTML = `${uiFloat}% = 1 / ${reducedStr}`
                 } else {
                     let finalString = reducedStr.slice(0, 4);
                     let b = parseInt(finalString.slice(0, 2) + finalString[3]);
