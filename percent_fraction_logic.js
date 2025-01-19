@@ -23,7 +23,7 @@ function toFractionTen(b) {
     output.innerHTML = `${uiFloat}% = ${Math.floor(10 / c)} / ${Math.floor(b / c)} approximate.`
 }
 
-const userInput = prompt("Enter a percentage: ");
+const userInput = document.getElementById('percent_input').value;
 const uiFloat = parseFloat(userInput);
 
 if (userInput.includes(".")) {
