@@ -1,6 +1,4 @@
-function percent_to_frac() {  
-    
-    function input_validation() {
+function input_validation() {
         const input = document.getElementById('percent_input');
         input.addEventListener('input', () => {
             if (parseFloat(input.value) > 100) {
@@ -11,7 +9,8 @@ function percent_to_frac() {
             }
         })
     }
-    
+
+function percent_to_frac() {
     function calculateHCF(firstNumber, secondNumber) {
         while (firstNumber && secondNumber > 0) {
             let temp = firstNumber;
