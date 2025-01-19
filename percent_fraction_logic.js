@@ -102,7 +102,8 @@ function percent_to_frac() {
                 }
             } else {
                 if (!reducedStr.includes('.')) {
-                    console.log(`1 / ${reducedStr}`)
+                    const output = document.getElementById('for_user');
+                    output.innerHTML = `1 / ${reducedStr}`
                 } else {
                     let finalString = reducedStr.slice(0, 4);
                     let b = parseInt(finalString.slice(0, 2) + finalString[3]);
