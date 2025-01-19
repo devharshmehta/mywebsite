@@ -1,4 +1,4 @@
-  
+function percent_to_frac() {  
     
     function input_validation() {
         const input = document.getElementById('percent_input');
@@ -154,3 +154,4 @@
         const output = document.getElementById('for_user');
         output.innerHTML = `${uiFloat}% = ${Math.floor(uiFloat / hcf)} / ${Math.floor(100 / hcf)}`;
     }
+}
